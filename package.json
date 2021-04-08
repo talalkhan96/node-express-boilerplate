@@ -1,0 +1,38 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&nodemon index.js",
+    "start": "set NODE_ENV=production&&node index.js",
+    "start:dev": "set NODE_ENV=development&&nodemon --inspect index.js",
+    "test": "jest"
+  },
+  "author": "Talal.K",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "composable-middleware": "^0.3.0",
+    "config": "^3.3.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.0",
+    "mysql2": "^2.2.5",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.4.13",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.5",
+    "swagger-ui-express": "^4.1.4",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "DB": "mongodb://localhost/express-boilerplate",
+    "origin": "localhost:4000",
+    "Email_env": {
+        "service": "gmail",
+        "email": "xxxxx",
+        "password": "xxxx"
+    },
+    "dbConfig":{
+        "host": "34.66.229.183",
+        "USER": "xyz",
+        "PASSWORD": "xyz",
+        "DB": "express-boilerplate-prod"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "origin": "http://localhost:4000",
+    "Email_env": {
+        "service": "gmail",
+        "email": "xxxxxx",
+        "password": "xxxxx"
+    },
+    "dbConfig":  {
+        // "host": "34.66.229.183",
+        // "USER": "xyz",
+        // "PASSWORD": "xyz",
+        // "DB": "xyz"
+
+        "host": "localhost",
+        "USER": "root",
+        "PASSWORD": "",
+        "DB": "express-boilerplate-dev"
+    }
+}
